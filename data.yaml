@@ -1,0 +1,6 @@
+train: train/images
+val: val/images
+test: test/images
+
+nc: 6
+names: ['Bus', 'Mobil Penumpang', 'Pejalan Kaki', 'Sepeda Motor', 'Truck', 'Unmotorized']

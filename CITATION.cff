@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "IndoTraffic: A Multi-City Dataset for Indonesian Mixed Traffic Detection"
+authors:
+  - family-names: Suartawan
+    given-names: Putu Eka
+    email: putu.eka@poltradabali.ac.id
+    affiliation: Bali Land Transportation Polytechnic
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: Wedagama
+    given-names: Dewa Made Priyantha
+    affiliation: Udayana University
+  - family-names: Suthanaya
+    given-names: Putu Alit
+    affiliation: Udayana University
+  - family-names: Suraharta
+    given-names: I Made
+    affiliation: Bali Land Transportation Polytechnic
+  - family-names: Sadri
+    given-names: Putu Diva Ariesthana
+    affiliation: Bali Land Transportation Polytechnic
+  - family-names: Badarudin A.
+    given-names: Aswin
+    affiliation: Bali Land Transportation Polytechnic
+repository-code: "https://github.com/ekasuartawan82/indotraffic-dataset"
+url: "https://github.com/ekasuartawan82/indotraffic-dataset"
+abstract: "IndoTraffic is a large-scale, multi-city dataset for vehicle detection in Indonesian urban mixed traffic environments, comprising 9,078 images from Denpasar, Yogyakarta, and Jabodetabek."
+keywords:
+  - computer vision
+  - object detection
+  - traffic monitoring
+  - dataset
+  - Indonesia
+  - mixed traffic
+  - YOLOv8
+  - motorcycle detection
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2024-11-06
