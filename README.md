@@ -40,23 +40,38 @@ IndoTraffic is a publicly accessible dataset designed for vehicle detection in I
 
 ---
 
-## 📥 Dataset Structure
+## 📥 Dataset Download and Structure
+
+### Option 1: GitHub Repository (Documentation & Config)
+This repository contains the documentation and configuration files. The full dataset with images and labels is available separately.
+
+### Option 2: Complete Dataset
+For the complete dataset with images and annotations, please contact the corresponding author or download from [Zenodo] (link will be available soon).
+
+### Repository Structure
 
 ```
 indotraffic-dataset/
 ├── train/
-│   ├── images/          # Training images
-│   └── labels/          # YOLO format annotations (.txt)
+│   ├── images/          # Training images (to be added)
+│   └── labels/          # YOLO format annotations (.txt) (to be added)
 ├── val/
-│   ├── images/          # Validation images
-│   └── labels/          # YOLO format annotations (.txt)
+│   ├── images/          # Validation images (to be added)
+│   └── labels/          # YOLO format annotations (.txt) (to be added)
 ├── test/
-│   ├── images/          # Test images
-│   └── labels/          # YOLO format annotations (.txt)
-├── best.pt              # Pre-trained YOLOv8 model weights
+│   ├── images/          # Test images (to be added)
+│   └── labels/          # YOLO format annotations (.txt) (to be added)
 ├── data.yaml            # Dataset configuration
+├── requirements.txt     # Dependencies
+├── CITATION.cff        # Citation information
 └── README.md            # This file
 ```
+
+### Dataset Size Information
+- **Training Images**: ~6,355 images
+- **Validation Images**: ~1,816 images
+- **Test Images**: ~907 images
+- **Total Estimated Size**: ~2-3 GB (including images)
 
 ---
 
