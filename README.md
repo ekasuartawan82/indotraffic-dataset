@@ -45,25 +45,34 @@ IndoTraffic is a publicly accessible dataset designed for vehicle detection in I
 ### Option 1: GitHub Repository (Documentation & Config)
 This repository contains the documentation and configuration files. The full dataset with images and labels is available separately.
 
-### Option 2: Complete Dataset
-For the complete dataset with images and annotations, please contact the corresponding author or download from [Zenodo] (link will be available soon).
+### Option 2: Complete Dataset (Available)
+📁 **Download the complete dataset here**:
+[🔗 IndoTraffic Dataset - Google Drive](https://drive.google.com/drive/folders/1arD3geb3A8kQcyp5WXzTWn21AdumD5It?usp=sharing)
+
+The Google Drive folder contains:
+- All training, validation, and test images
+- YOLO format annotation files (.txt)
+- Pre-trained model weights (optional)
+
+> **Note**: The dataset is shared for academic and research purposes under CC BY 4.0 license.
 
 ### Repository Structure
 
 ```
 indotraffic-dataset/
 ├── train/
-│   ├── images/          # Training images (to be added)
-│   └── labels/          # YOLO format annotations (.txt) (to be added)
+│   ├── images/          # Training images (download from Google Drive)
+│   └── labels/          # YOLO format annotations (.txt) (download from Google Drive)
 ├── val/
-│   ├── images/          # Validation images (to be added)
-│   └── labels/          # YOLO format annotations (.txt) (to be added)
+│   ├── images/          # Validation images (download from Google Drive)
+│   └── labels/          # YOLO format annotations (.txt) (download from Google Drive)
 ├── test/
-│   ├── images/          # Test images (to be added)
-│   └── labels/          # YOLO format annotations (.txt) (to be added)
+│   ├── images/          # Test images (download from Google Drive)
+│   └── labels/          # YOLO format annotations (.txt) (download from Google Drive)
 ├── data.yaml            # Dataset configuration
 ├── requirements.txt     # Dependencies
 ├── CITATION.cff        # Citation information
+├── LICENSE             # CC BY 4.0 License
 └── README.md            # This file
 ```
 
@@ -85,16 +94,30 @@ indotraffic-dataset/
 ### Setup
 
 ```bash
-# Clone repository
+# Step 1: Clone this repository
 git clone https://github.com/ekasuartawan82/indotraffic-dataset.git
 cd indotraffic-dataset
 
-# Create virtual environment (recommended)
+# Step 2: Download the complete dataset from Google Drive
+# Link: https://drive.google.com/drive/folders/1arD3geb3A8kQcyp5WXzTWn21AdumD5It?usp=sharing
+# Extract and place the folders in this directory:
+# indotraffic-dataset/
+# ├── train/
+# │   ├── images/
+# │   └── labels/
+# ├── val/
+# │   ├── images/
+# │   └── labels/
+# └── test/
+#     ├── images/
+#     └── labels/
+
+# Step 3: Create virtual environment (recommended)
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install dependencies
-pip install ultralytics torch torchvision
+# Step 4: Install dependencies
+pip install -r requirements.txt
 ```
 
 ---
